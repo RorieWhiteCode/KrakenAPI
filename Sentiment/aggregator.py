@@ -3,6 +3,12 @@ import pandas as pd
 from typing import Dict, Any
 
 
+
+#Composite Sentiment Formula
+#CSS=(N×Wn)+(SM×Wsm)+(EX×Wex)
+
+
+
 # Aggregates sentiment scores and generates a composite score
 class SentimentAggregator:
     def __init__(self):
